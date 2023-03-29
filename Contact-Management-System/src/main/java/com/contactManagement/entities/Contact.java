@@ -28,7 +28,7 @@ public class Contact {
     @NotBlank(message = "Email is Required")
     private String email;
 
-    @Column(nullable = false)
+    @Column(nullable = false , length = 10)
     @NotBlank(message = "Phone Number is Required")
     private String phoneNO;
 
